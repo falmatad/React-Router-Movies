@@ -5,10 +5,6 @@ const Movie = (props) => {
   console.log(props);
   useEffect(() => {
     const id = props.match.params.dataId;
-    // Movie.find(
-    //   element => element.id === Number(props.match.params.dataId)
-    // );
-  
     // change ^^^ that line and grab the id from the URL
     // You will NEED to add a dependency array to this effect hook
 
